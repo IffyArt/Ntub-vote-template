@@ -1,0 +1,55 @@
+body {
+  color: #6F7579;
+}
+
+/* Button */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #3B4043;
+  color: #FFFFFF !important;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.outline-button {
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+}
+
+/* Button end */
+
+/* Basic layout */
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li .content h5 {
+  font-size: 1.3rem;
+}
+
+ul li .content h6 {
+  font-size: 0.9rem;
+}
+
+ul li .content span {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
+/* Basic layout end */
